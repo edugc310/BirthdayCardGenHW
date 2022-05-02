@@ -1,0 +1,36 @@
+﻿@model BirthdayCardGenerator.Models.FromTo
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+@*<style>    footer {
+        height: 300px;
+        width: 100%;
+    }
+
+    p.copyright {
+        width: 100%;
+        line-height: 10px;
+        bottom: 0;
+    }
+</style>*@
+
+<h1>Birthday Card Sent</h1>
+<p>
+    From: @Model.From
+</p>
+<p>
+    To: @Model.To
+</p>
+<p>
+    Message: @Model.Message
+</p>
+
+<div style="bottom:0;position: fixed; width:100%;">
+    <hr style="width:100%;" />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application - Eduardo Garcia Colon</p>
+    </footer>
+</div>

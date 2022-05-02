@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Birthday Card Generator</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center">
+        <h2>Welcome to the Birthday Card Generator!</h2>
+        @*<h3>And you're invited</h3>*@
+
+        <div class="btn btn-success">
+            <a asp-action="BirthdayCard">Birthday Card Generator</a>
+        </div>
+    </div>
+
+    <div style="bottom:0;position: fixed; width:100%;">
+        <hr style="width:100%;" />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application - Eduardo Garcia Colon</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EGri99ee9prWLLQO5PYAnA0keSUB5rE7Xl4MYsRend3aImHN5/kJ51rVl+2dN0U9GQfTd8No1xT2CLgenP6+xA==",
+  "success": true,
+  "projectFilePath": "/Users/eduardogarcia/Projects/BirthdayCardGeneratorHW/BirthdayCardGeneratorHW/BirthdayCardGeneratorHW.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardogarcia/.nuget/packages/bootstrap/5.1.3/bootstrap.5.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
